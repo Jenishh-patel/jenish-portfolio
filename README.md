@@ -1,11 +1,11 @@
+# Personal Portfolio Website
 
-  # Personal Portfolio Website
+Personal portfolio website showcasing my web development projects, skills, and digital experiences.
 
-  This is a code bundle for Personal Portfolio Website. The original project is available at https://www.figma.com/design/2YJBQx1uqyMj6UN3cxvWgV/Personal-Portfolio-Website.
+This is a code bundle for Personal Portfolio Website. The original project is available at https://www.figma.com/design/2YJBQx1uqyMj6UN3cxvWgV/Personal-Portfolio-Website.
 
-  ## Running the code
+## Running the code
 
-  Run `npm i` to install the dependencies.
+Run `npm i` to install the dependencies.
 
-  Run `npm run dev` to start the development server.
-  
+Run `npm run dev` to start the development server.
