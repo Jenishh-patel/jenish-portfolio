@@ -18,8 +18,8 @@ export function Hero() {
         <div className="absolute -top-1/2 -right-1/2 w-96 h-96 bg-gradient-to-br from-primary/10 to-accent/10 rounded-full blur-3xl" />
         <div className="absolute -bottom-1/2 -left-1/2 w-96 h-96 bg-gradient-to-tr from-accent/15 to-primary/10 rounded-full blur-3xl" />
       </div>
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="max-w-6xl mx-auto px-4 relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 xl:gap-12 items-center">
           {/* Text Content */}
           <motion.div
             className="space-y-6"
@@ -100,7 +100,7 @@ export function Hero() {
 
           {/* Profile Image */}
           <motion.div
-            className="flex justify-center lg:justify-end"
+            className="flex justify-center lg:justify-start"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -112,7 +112,7 @@ export function Hero() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full blur-2xl"></div>
               <ImageWithFallback
-                src="/images/profile_pic.jpg"
+                src="/images/profile_pic.webp"
                 alt="Jenish Patel - Professional Profile"
                 className="relative w-80 h-80 object-cover rounded-full border-4 border-background shadow-2xl"
               />
